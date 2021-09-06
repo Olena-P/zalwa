@@ -1,0 +1,106 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .card {
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .team {
+    text-align: center;
+    color: white;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .name {
+    text-transform: uppercase;
+    color: white;
+    font-size: 8px;
+    margin-top: 15px;
+  }
+
+  .profession {
+    font-size: 11px;
+    color: grey;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 50px;
+  }
+
+  .team {
+    display: none;
+  }
+
+  .card {
+    text-align: start;
+    padding: 15px;
+
+    &:nth-child(2n) {
+      margin-top: 40px;
+    }
+  }
+
+  // .card:nth-child(2n) {
+  //   margin-top: 20px;
+  // }
+
+  .photo {
+    display: block;
+    width: 90px;
+  }
+
+  .name {
+    color: white;
+    font-size: 10px;
+    margin-top: 22px;
+  }
+
+  .profession {
+    color: grey;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 100px;
+  }
+  .box {
+    margin: 0px;
+  }
+  .card {
+    padding: 15px;
+
+    &:nth-child(2n) {
+      margin-top: 40px;
+    }
+  }
+
+  .name {
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    margin-top: 32px;
+  }
+
+  .profession {
+    font-size: 11px;
+    color: grey;
+    margin-top: 12px;
+  }
+}

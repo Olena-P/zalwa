@@ -1,0 +1,110 @@
+@media screen and (min-width: 320px) {
+  .about {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    width: 270px;
+    height: 50px;
+  }
+
+  .about:after {
+    content: ' ';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    border-top: 1px solid #c6a15b;
+  }
+
+  .title {
+    color: #ffffff;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  .function {
+    font: 'Source Sans Pro';
+    color: #ffffff;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  .vl {
+    border-left: 1px solid gray;
+    position: absolute;
+    height: 80px;
+    left: 47%;
+    top: 70%;
+  }
+
+  .vl-svg {
+    position: absolute;
+    left: 44%;
+    top: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    margin-top: 220px;
+    width: 430px;
+    height: 70px;
+  }
+
+  .about:after {
+    width: 265px;
+    border-top: 2px solid #c6a15b;
+  }
+
+  .title {
+    font-size: 45px;
+    letter-spacing: 1px;
+  }
+
+  .function {
+    font-size: 10px;
+    letter-spacing: 7px;
+  }
+
+  .vl {
+    height: 100px;
+    left: 48%;
+    top: 65%;
+  }
+
+  .vl-svg {
+    left: 46.5%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    margin-top: 320px;
+    width: 550px;
+    height: 120px;
+  }
+
+  .about:after {
+    width: 340px;
+  }
+
+  .title {
+    font-size: 62px;
+  }
+
+  .function {
+    font-size: 12px;
+    letter-spacing: 10px;
+  }
+
+  .vl {
+    left: 50%;
+  }
+
+  .vl-svg {
+    left: 49.2%;
+  }
+}

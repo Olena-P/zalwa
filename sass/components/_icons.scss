@@ -1,0 +1,62 @@
+@media screen and (min-width: 320px) {
+  .icon-menu {
+    position: absolute;
+    right: -3px;
+    top: 5px;
+  }
+
+  .list-icon-footer {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    color: #c6a15b;
+  }
+
+  .icon-footer {
+    width: 20px;
+    height: 12px;
+  }
+
+  .icon-border {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    padding: 5px;
+    border: 1px solid gray;
+  }
+
+  .icons-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // height: 13px;
+    // margin-top: 18px;
+  }
+
+  .icon {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icon-menu {
+    right: 25px;
+    top: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .icons-list {
+    height: 13px;
+    margin-top: 18px;
+  }
+
+  .icon {
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+  }
+}

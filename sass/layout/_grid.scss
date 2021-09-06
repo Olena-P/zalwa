@@ -1,0 +1,48 @@
+@media screen and (min-width: 320px) {
+  .section-title {
+    margin-left: 30px;
+  }
+
+  .function-fifth {
+    text-transform: uppercase;
+    color: white;
+    font-size: 8px;
+    position: relative;
+    top: -65px;
+    margin-top: 20px;
+  }
+
+  .page-title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .function-fifth {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    display: grid;
+    grid-template-columns: 0fr 500px;
+    gap: 62px;
+    justify-content: center;
+  }
+
+  .section-text {
+    width: 470px;
+  }
+
+  .function-fifth {
+    font-size: 12px;
+    top: -80px;
+  }
+
+  .page-title {
+    font-size: 50px;
+  }
+}
