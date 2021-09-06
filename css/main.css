@@ -328,7 +328,7 @@ li {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../images/Layer1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/Layer1.png);
   }
   .slide2,
   .slide3,
@@ -348,7 +348,7 @@ li {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../images/Layer2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/Layer2.png);
   }
   .slides {
     height: inherit;
