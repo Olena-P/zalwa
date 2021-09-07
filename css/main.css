@@ -249,10 +249,11 @@ li {
     letter-spacing: 10px;
   }
   .vl {
-    left: 50%;
+    top: 70%;
+    left: 46%;
   }
   .vl-svg {
-    left: 49.2%;
+    left: 45.2%;
   }
 }
 
@@ -287,6 +288,7 @@ li {
     grid-template-columns: 0fr 500px;
     gap: 62px;
     justify-content: center;
+    margin-top: 100px;
   }
   .section-text {
     width: 470px;
