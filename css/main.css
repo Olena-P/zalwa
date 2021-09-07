@@ -45,8 +45,8 @@ li {
     justify-content: space-between;
   }
   .icon {
-    width: 13px;
-    height: 13px;
+    width: 11px;
+    height: 11px;
     margin-right: 5px;
   }
 }
@@ -127,6 +127,7 @@ li {
     color: grey;
     margin-top: 8px;
     margin-bottom: 8px;
+    font-size: 11px;
   }
 }
 
@@ -199,7 +200,7 @@ li {
   }
   .vl-svg {
     position: absolute;
-    left: 44%;
+    left: 43%;
     top: 90%;
   }
 }
